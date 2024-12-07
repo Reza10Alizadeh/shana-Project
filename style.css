@@ -650,4 +650,15 @@ footer {
   .small-slider-container {
     width: 300px;
   }
+  .slider-hover {
+    width: 100%;
+    height: 100%;
+  }
+  .slider-hover img {
+    width:100%;
+    height: 100%;
+  }
+  .slider-hover:hover {
+    width: 150%;
+  }
 }
