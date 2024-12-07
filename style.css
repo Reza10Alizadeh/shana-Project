@@ -570,6 +570,9 @@ footer {
 }
 /* responsive */
 @media screen and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
   .small-slider-container {
     width: 500px;
   }
@@ -622,17 +625,17 @@ footer {
   }
 
   .header-top .d-flex {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
 
   .header-top .d-flex button {
     margin-bottom: 10px;
-    width: 100%; 
+    width: 100%;
   }
 
   .header-top .d-flex p {
-    text-align: center; 
+    text-align: center;
   }
 
   .header-top .d-flex .btn {
